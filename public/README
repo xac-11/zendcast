@@ -10,8 +10,6 @@ github
 set inviroment variable 
 HOME = C:\Users\user
 
-update
-
 
 /* for pull add the following to ".git/config" */
 [branch "master"]
