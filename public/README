@@ -12,6 +12,8 @@ HOME = C:\Users\user
 
 update
 
+
+/* for pull add the following to ".git/config" */
 [branch "master"]
 	remote = origin
 	merge = refs/heads/master
