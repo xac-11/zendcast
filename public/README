@@ -14,5 +14,3 @@ HOME = C:\Users\user
 [branch "master"]
 	remote = origin
 	merge = refs/heads/master
-
-no EGit
