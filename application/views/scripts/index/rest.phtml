@@ -1,0 +1,14 @@
+<br /><br />
+<div id="index-rest">
+	<h2>grabbing live data from Twitter</h2>
+	
+	<?php 
+		foreach($this->twitterResults as $t) {
+			echo "
+				<div style='border: 2px solid #ccc'>
+					<img src='". $t['profile_image_url'] ."'/> ". $t['text'] . " 
+				</div>
+			";
+		}
+	?>
+</div>

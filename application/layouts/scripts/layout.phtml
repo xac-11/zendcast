@@ -1,0 +1,29 @@
+<?php echo $this->doctype(); ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>xacBlog</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" ></meta>
+		<? 
+// 			$this->headlink()->appendStylesheet('/css/screen.css', 'screen, projection');
+// 		 	$this->headlink()->appendStylesheet('/css/ie.css', 'screen, projection', 'IE'); 
+// 		 	$this->headlink()->appendStylesheet('/css/print.css', 'print'); 
+		 ?>
+		
+		<?= $this->headlink()->appendStylesheet('/css/main.css'); ?>
+ 		
+ 		
+ 		<script src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">google.load("jquery", "1");</script>
+		
+	</head>
+
+	<body>
+		<div>
+				<?= $this->layout()->content; ?>
+		
+			
+		</div>
+	
+	
+	</body>
+</html>

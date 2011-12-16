@@ -1,0 +1,10 @@
+<?php 
+	if( $this->alt) {
+		$style="background-color: #CCFFEE";
+	} else {
+		$style="";
+	}
+?>
+<tr style="<?= $style; ?>"> 
+	<td><?= $this->item->id?> </td><td><?= $this->item->name?> </td>
+</tr>

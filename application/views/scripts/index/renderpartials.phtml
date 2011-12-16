@@ -1,0 +1,14 @@
+<div id="index-renderpartials">
+	<h2>Render Partials</h2>
+	
+	<table style="width: 180px; background-color: white;">
+		<tr> <th>ID</th> <th>Name</th> </tr>
+		<?php 
+			$alt = true;
+			foreach( $this->items as $item ) {
+				$alt = !$alt;
+				echo $this->partial('partials/row.phtml', array("alt" => $alt, "item" => $item) );
+			}
+		?>
+	</table>
+</div>

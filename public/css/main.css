@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0 0;
+	padding: 0 0;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+
+#html, body {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width:980px;
+  height: 100%;
+  margin: auto;
+  padding-top: 11px;
+}
+
+
+.navigation {
+	background: #CDCDCD;
+	border-right: 1px solid red;
+}
+
+input[type=text]  {
+	font-size: 11px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+input[type=button]  {
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-size: 11px;
+}
+
+label {
+	font-size: 11px;
+	font-weight: normal;
+}
+
