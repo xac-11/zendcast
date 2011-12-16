@@ -1,18 +1,19 @@
-git/github
+/******************************************************************************/
+/** git/github ******************************************************* start **/
 
 set windows environment variable
 HOME = C:\Users\user
 
-install git from "http://code.google.com/p/msysgit/downloads/list" follow the instructions
+install git from "http://code.google.com/p/msysgit/downloads/list" follow the 
+instructions to generate SSH key and add it to github project
 
+from gitbash:
+cd /x/project directory
+git init                    
+git add *                   // add files to project     DO AFTER EVERY CHANGE
+git commit -am "message"    // commit changes           BEFORE PUSH TO REPOSITORY
 
-from gitbash: change directory to project root
-
-git init
-git add *
-git commit -am "message"
-
-git remote add repository git://github.com/user/repository.git
+git remote add repository git://github.com/user/repository.git     
 git push -u origin master
 
 git pull
@@ -21,3 +22,6 @@ git pull
 [branch "master"]
 	remote = origin
 	merge = refs/heads/master
+
+/** git/github ********************************************************* end **/
+/******************************************************************************/
