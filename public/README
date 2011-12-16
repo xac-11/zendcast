@@ -11,3 +11,7 @@ set inviroment variable
 HOME = C:\Users\user
 
 update
+
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
